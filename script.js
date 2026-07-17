@@ -52,6 +52,12 @@ function criarJanela(titulo){
         </div>
     `;
 
+     const botaoFechar = janela.querySelector(".fechar");
+
+    botaoFechar.addEventListener("click", () => {
+        janela.remove();
+    });
+
     
 
     document.getElementById("desktop").appendChild(janela);
