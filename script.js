@@ -43,7 +43,7 @@ function criarJanela(titulo){
             <span>${titulo}</span>
 
             <button class="fechar">X</button>
-            <button class="fechar">X</button>
+            
         </div>
 
         <div class="window-content">
